@@ -22,6 +22,7 @@ public class ProductController {
     private ProductService productService;
     @Autowired
     private ProductRepository productRepository;
+//////    // Obtenir tous les produits avec pagination
 //    @GetMapping
 //    public ResponseEntity<List<Product>> getProducts(
 //            @RequestParam(defaultValue = "0") int page,
